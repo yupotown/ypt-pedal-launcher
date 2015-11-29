@@ -16,5 +16,17 @@ namespace YptPedalLauncher
         {
             InitializeComponent();
         }
+
+        private MidiInput midiIn = new MidiInput();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            midiIn.TryOpen();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            midiIn.Close();
+        }
     }
 }
