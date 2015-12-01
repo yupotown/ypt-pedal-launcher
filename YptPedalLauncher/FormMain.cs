@@ -16,5 +16,13 @@ namespace YptPedalLauncher
         {
             InitializeComponent();
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            var pedalbar = new FormPedalbar();
+            pedalbar.Show();
+
+            this.Activate();
+        }
     }
 }

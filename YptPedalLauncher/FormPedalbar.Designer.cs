@@ -1,6 +1,6 @@
 ﻿namespace YptPedalLauncher
 {
-    partial class FormMain
+    partial class FormPedalbar
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,19 @@
         {
             this.SuspendLayout();
             // 
-            // FormMain
+            // FormPedalbar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "FormMain";
-            this.Text = "YPT Pedal Launcher";
-            this.Load += new System.EventHandler(this.FormMain_Load);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FormPedalbar";
+            this.ShowInTaskbar = false;
+            this.Text = "FormPedalbar";
+            this.TopMost = true;
+            this.TransparencyKey = System.Drawing.Color.White;
+            this.Load += new System.EventHandler(this.FormPedalbar_Load);
             this.ResumeLayout(false);
 
         }
@@ -45,4 +50,3 @@
         #endregion
     }
 }
-
